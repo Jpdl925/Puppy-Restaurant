@@ -48,6 +48,11 @@
     color: #5F002B;
     font-style: italic;
   }
+  a{
+    color: #5F002B;
+    text-decoration: none;
+  }
+
   .navRight{
     display:flex;
     justify-content: flex-end;
