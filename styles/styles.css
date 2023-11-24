@@ -1,0 +1,60 @@
+/* MONTAUK FONTS */
+@font-face{
+    font-family:Montauk-Bold;
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Bold.otf');
+}
+@font-face{
+    font-family:Montauk-Italic;
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Italic.otf');
+}
+@font-face{
+    font-family:Montauk-Light;
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Light.otf');
+}
+@font-face{
+    font-family:Montauk-Regular;
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Regular.otf');
+}
+.Montauk-Bold{
+    font-family: Montauk-Bold;
+}
+.Montauk-Italic{
+    font-family: Montauk-Italic;
+    
+}
+.Montauk-Light{
+    font-family: Montauk-Light;
+}
+.Montauk-Regular{
+    font-family: Montauk-Regular;
+}
+/* END OF MONTAUK FONTS */
+
+/* NAVBAR FORMATTING */
+.navbarBackground{
+    margin-top:-8px;
+    background-image:url('/Puppy-Restaurant/Assets/bgtexture.jpg');
+    padding-top:10px;
+    padding-bottom: 25px;
+    padding-left:150px;
+    width: 100%;
+}
+/* NAVBAR TEXT */
+  .nav li {
+    display: inline-block;
+    font-size: 25px;
+    padding-right: 50px;
+    font-family: Montauk-Bold;
+    color: #5F002B;
+    font-style: italic;
+  }
+  .navRight{
+    display:flex;
+    justify-content: flex-end;
+    padding-right:100px;
+  }
+/* NAVBAR IMAGE */
+.nav img{
+    width: 250px;
+    height:92px;
+}
