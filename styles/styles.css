@@ -39,7 +39,7 @@
     padding-top:10px;
     padding-bottom: 25px;
     padding-left:150px;
-    width: 100%;
+
     
 }
 
@@ -74,10 +74,8 @@
 /* ---PATIO IMAGE FORMAT------------- */
 .patioFormat{ 
 width: 100%;
-height: 100%;
-object-fit: cover;
+object-fit:fill;
 margin:0;
 padding: 0;
-    
 }  
  /*----------END OF PATIO IMAGE FORMAT---------  */
