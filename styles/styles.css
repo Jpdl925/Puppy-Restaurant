@@ -39,8 +39,12 @@
     padding-top:10px;
     padding-bottom: 25px;
     padding-left:150px;
-
     
+    
+}
+
+.navPosition{
+    padding-bottom: 0;
 }
 
 /* NAVBAR TEXT */
