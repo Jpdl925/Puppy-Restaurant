@@ -28,8 +28,10 @@
 .Montauk-Regular{
     font-family: Montauk-Regular;
 }
-/* END OF MONTAUK FONTS */
+/* --------------END OF MONTAUK FONTS--------- */
 
+
+/* -----------NAVBAR BEGINNING------------ */
 /* NAVBAR FORMATTING */
 .navbarBackground{
     margin-top:-8px;
@@ -38,6 +40,7 @@
     padding-bottom: 25px;
     padding-left:150px;
     width: 100%;
+    
 }
 
 /* NAVBAR TEXT */
@@ -66,3 +69,15 @@
     width: 250px;
     height:92px;
 }
+/* --------------END OF NAVBAR------------*/
+
+/* ---PATIO IMAGE FORMAT------------- */
+.patioFormat{ 
+width: 100%;
+height: 100%;
+object-fit: cover;
+margin:0;
+padding: 0;
+    
+}  
+ /*----------END OF PATIO IMAGE FORMAT---------  */
