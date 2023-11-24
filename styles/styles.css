@@ -39,6 +39,7 @@
     padding-left:150px;
     width: 100%;
 }
+
 /* NAVBAR TEXT */
   .nav li {
     display: inline-block;
@@ -48,16 +49,18 @@
     color: #5F002B;
     font-style: italic;
   }
+  /* Adjusting Link Color */
   a{
     color: #5F002B;
     text-decoration: none;
   }
-
+  /* Moving Navtext to the right of the Navbar */
   .navRight{
     display:flex;
     justify-content: flex-end;
     padding-right:100px;
   }
+
 /* NAVBAR IMAGE */
 .nav img{
     width: 250px;
