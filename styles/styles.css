@@ -1,19 +1,19 @@
 /* MONTAUK FONTS */
 @font-face{
     font-family:Montauk-Bold;
-    src: url('/Fonts/Montauk-Bold.otf');
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Bold.otf');
 }
 @font-face{
     font-family:Montauk-Italic;
-    src: url('/Fonts/Montauk-Italic.otf');
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Italic.otf');
 }
 @font-face{
     font-family:Montauk-Light;
-    src: url('/Fonts/Montauk-Light.otf');
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Light.otf');
 }
 @font-face{
     font-family:Montauk-Regular;
-    src: url('/Fonts/Montauk-Regular.otf');
+    src: url('/Puppy-Restaurant/Fonts/Montauk-Regular.otf');
 }
 .Montauk-Bold{
     font-family: Montauk-Bold;
@@ -35,7 +35,7 @@
 /* NAVBAR FORMATTING */
 .navbarBackground{
     margin-top:-8px;
-    background-image:url('/Assets/bgtexture.jpg');
+    background-image:url('/Puppy-Restaurant/Assets/bgtexture.jpg');
     padding-top:10px;
     padding-bottom: 25px;
     padding-left:150px;
@@ -87,12 +87,53 @@ padding: 0;
  /* -------Muzzles Sandwiches and Grill----------------- */
  .woodBackground{
     padding-top: 80px;
-    background-image: url(/Assets/bgtexture.jpg);
+    background-image: url(/Puppy-Restaurant/Assets/bgtexture.jpg);
  }
  .whiteBackground{
     display:inline-block;
     background-color: white;
+    width:800px;
  }
  .black{
     background-color:black;
  }
+.singleImg{
+    margin-left:50px;
+    margin-right:20px;
+    float:left;
+    width:550px;
+    height:350px;
+}
+.muzzTitle{
+    margin-left:30px;
+    font-size: 55px;
+    font-family: Montauk-Bold;
+    color: #5F002B;
+    font-style: Bold;
+}
+.muzzText{
+    margin-left:30px;
+    font-size: 17px;
+    font-family: Montauk-Regular;
+    color: #5F002B;
+}
+.homeImg{
+    margin-top: 13px;
+    width:800px;
+    height:120px;
+}
+/* ------END OF MUZZLES SANDWICHES AND GRILL----------- */
+
+/*----------------------FOOTER----------------------*/
+footer div.woodBackground{  
+    height:120px;
+}
+.footerContent{
+    
+}
+footer .logoCR{
+    float: right;
+}
+footer .address{
+    float:left;
+}
