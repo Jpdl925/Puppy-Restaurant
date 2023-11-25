@@ -83,3 +83,16 @@ margin:0;
 padding: 0;
 }  
  /*----------END OF PATIO IMAGE FORMAT---------  */
+
+ /* -------Muzzles Sandwiches and Grill----------------- */
+ .woodBackground{
+    padding-top: 80px;
+    background-image: url(/Assets/bgtexture.jpg);
+ }
+ .whiteBackground{
+    display:inline-block;
+    background-color: white;
+ }
+ .black{
+    background-color:black;
+ }
