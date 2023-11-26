@@ -112,10 +112,12 @@ padding: 0;
     font-style: Bold;
 }
 .muzzText{
+    margin-top: -30px;
     margin-left:30px;
     font-size: 17px;
     font-family: Montauk-Regular;
     color: #5F002B;
+    padding-bottom:20px;
 }
 .homeImg{
     margin-top: 13px;
@@ -126,14 +128,27 @@ padding: 0;
 
 /*----------------------FOOTER----------------------*/
 footer div.woodBackground{  
-    height:120px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 .footerContent{
-    
+    top: 20px;
 }
 footer .logoCR{
+    padding-right: 50px;
     float: right;
+    text-align: right;
 }
 footer .address{
+    padding-left: 50px;
     float:left;
 }
+footer div img{
+    width: 130px;
+}
+footer div p{
+    font-size: 20px;
+    font-family: Montauk-Light;
+    color: #5F002B;
+}
+/* ----------------------END OF FOOTER---------------- */
