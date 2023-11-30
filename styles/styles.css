@@ -35,7 +35,7 @@
 /* NAVBAR FORMATTING */
 .navbarBackground{
     margin-top:-8px;
-    background-image:url('/Puppy-Restaurant/Assets/bgtexture.jpg');
+    background-image:url('/Assets/bgtexture.jpg');
     padding-top:10px;
     padding-bottom: 25px;
     padding-left:150px;
@@ -87,7 +87,7 @@ padding: 0;
  /* -------Muzzles Sandwiches and Grill----------------- */
  .woodBackground{
     padding-top: 80px;
-    background-image: url(/Puppy-Restaurant/Assets/bgtexture.jpg);
+    background-image: url(/Assets/bgtexture.jpg);
  }
  .whiteBackground{
     display:inline-block;
