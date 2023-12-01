@@ -15,6 +15,10 @@
     font-family:Montauk-Regular;
     src: url('/Fonts/Montauk-Regular.otf');
 }
+@font-face {
+    font-family: fugaz-one;
+    src: url(../Fonts/FugazOne-Regular.ttf);
+}
 .Montauk-Bold{
     font-family: Montauk-Bold;
 }
@@ -154,8 +158,18 @@ footer div p{
 /* ----------------------END OF FOOTER---------------- */
 
 /* ABOUT PAGE */
+.navFont {
+    font-family: fugaz-one;
+}
+
 .about-title {
     color: #5F002B; 
+}
+.aboutText {
+    color: #5F002B;  
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 19px;
 }
 
 .abPadding {
@@ -164,3 +178,28 @@ footer div p{
     padding-bottom: 40px;
     padding-left: 35px;
 }
+.ABwhiteBG {
+    background-color: white;
+}
+.teamTitle {
+    color: #5F002B;
+    font-size: 30px;
+    font-family: fugaz-one;
+}
+.cardPicTop {
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px ; 
+}
+.card-margin {
+    margin-bottom: 100px;
+}
+.cardtitle {
+    font-family: fugaz-one;
+    color: #5F002B;  
+    font-size: 30px;
+    
+}
+.bgImg {
+    background-image: url(/Assets/bgtexture.jpg);
+}
+
