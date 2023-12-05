@@ -162,8 +162,10 @@ footer div p{
     font-family: fugaz-one;
 }
 
-.about-title {
+.aboutTitle {
     color: #5F002B; 
+    font-size: 50px;
+    font-family: fugaz-one;
 }
 .aboutText {
     color: #5F002B;  
@@ -199,7 +201,16 @@ footer div p{
     font-size: 30px;
     
 }
+.teamText {
+    color: #5F002B;
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 19px;
+
+}
 .bgImg {
     background-image: url(/Assets/bgtexture.jpg);
 }
-
+.footer-right{
+    text-align: end;
+}
