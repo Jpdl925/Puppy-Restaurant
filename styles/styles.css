@@ -36,9 +36,10 @@
 .navbarBackground{
     margin-top:-8px;
     background-image:url('/Assets/bgtexture.jpg');
-    padding-top:10px;
-    padding-bottom: 25px;
-    padding-left:150px;
+    padding-top:1%;
+    padding-bottom: 2%;
+    padding-left:10%;
+    width: 100%;
     
     
 }
@@ -50,11 +51,13 @@
 /* NAVBAR TEXT */
   .nav li {
     display: inline-block;
-    font-size: 25px;
-    padding-right: 50px;
+    font-size: 3.5vh;
+    padding-right: 5vw;
     font-family: Montauk-Bold;
     color: #5F002B;
     font-style: italic;
+    margin-right: 1vw;
+
   }
   /* Adjusting Link Color */
   a{
@@ -63,19 +66,21 @@
   }
   /* Moving Navtext to the right of the Navbar */
   .navRight{
-    display:flex;
-    justify-content: flex-end;
-    padding-right:100px;
+    text-align: right;
   }
 
 /* NAVBAR IMAGE */
 .nav img{
-    width: 250px;
-    height:92px;
+    width: 15%;
+    height:auto;
 }
 /* --------------END OF NAVBAR------------*/
 
 /* ---PATIO IMAGE FORMAT------------- */
+.center{
+    display:flex;
+    justify-content: center;
+}
 .patioFormat{ 
 width: 100%;
 object-fit:fill;
@@ -86,13 +91,13 @@ padding: 0;
 
  /* -------Muzzles Sandwiches and Grill----------------- */
  .woodBackground{
-    padding-top: 80px;
+    padding-top: 8vh;
     background-image: url(/Assets/bgtexture.jpg);
  }
  .whiteBackground{
     display:inline-block;
     background-color: white;
-    width:800px;
+    width:40vw;
  }
  .black{
     background-color:black;
