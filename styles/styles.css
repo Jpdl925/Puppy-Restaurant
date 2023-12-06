@@ -240,3 +240,71 @@ footer div p{
 .cardBody {
     padding-top: 0 !important;
 }
+=======
+/*MENU CSS*/
+
+.menuTitle {
+    font-family: fugaz-one;
+    color: #5F002B;   
+    font-size: 50px;
+}
+.menuDish {
+    color: #5F002B;  
+    font-family: fugaz-one;
+    font-size: 30px;
+}
+.menuText {
+    color: #5F002B;   
+    font-family: montauk-light;
+    font-size: 20px
+}
+.menuText-item {
+    font-size: 35px;
+    
+}
+.cardPadding {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.menuMargin {
+    margin-bottom: 50px;
+}
+.menuItem {
+    color: #5F002B;  
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 20px;
+}
+.priceTag {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+hr {
+    color: #980051;
+    border-top: 3px solid #980051;
+}
+.menuBottom {
+    padding-bottom: 100px;
+}
+.menuWrap {
+    white-space: nowrap;
+}
+.navbarBackground{
+    background-image: url('/Assets/bgtexture.jpg');
+}
+nav img{
+    width:50%;
+    max-width:350px;
+    height: auto;
+}
+.navText a{
+    font-family: Montauk-Regular;
+    font-size:250%;
+    color:#5F002B;
+    text-decoration: none;
+    padding-inline: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
