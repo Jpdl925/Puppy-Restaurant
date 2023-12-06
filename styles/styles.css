@@ -32,13 +32,14 @@
 
 
 /* -----------NAVBAR BEGINNING------------ */
-.navbarBackground{
+.woodBackground{
     background-image: url('/Assets/bgtexture.jpg');
 }
 nav img{
     width:50%;
     max-width:350px;
     height: auto;
+    margin-left: 8vw;
 }
 .navText a{
     font-family: Montauk-Regular;
@@ -49,3 +50,84 @@ nav img{
     font-weight: bold;
     font-style: italic;
 }
+/* ----------------------NAVBAR ENDING----------------- */
+
+/* -------------------PATIO IMAGE-------------------- */
+.patioFormat{
+    width: 100%;
+    height:auto;
+}
+/*----------------- END OF PATIO IMAGE------------- */
+
+/*----------------- MSG SECTION------------- */
+.sandImage{
+    width: 100%;
+}
+.muzzbox{
+    width: 20vw;
+    height:auto;
+}
+.me-n3{
+    margin: -30px;
+}
+.muzzTitle{
+    font-size:6vw;
+    font-family: Montauk-Bold;
+    color:#5F002B;
+    font-style: italic;
+    font-weight: bold;
+}
+.muzzText{
+    font-size:3.5vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+}
+.lgsandImage{
+    padding-left:5vw;
+    width:40vw;
+    height:auto;
+}
+.lgmuzzTitle{
+    font-size:3vw;
+    font-family: Montauk-Bold;
+    color:#5F002B;
+    font-style: italic;
+    font-weight: bold;
+}
+.lgmuzzText{
+    font-size:1.1vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+    margin-right: 4vw;
+    margin-top: -15px;
+}
+.homeImg{
+    width:100%;
+    padding-top:40px;
+}
+
+
+/*----------------- END OF MSG SECTION------------- */
+
+/*----------------- FOOTER SECTION------------- */
+.address{
+    font-size:3.2vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+}
+.logoCR{
+    float:right;
+    width: 25vw;
+}
+.lgaddress{
+    font-size:1vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+    padding-left: 5vw;
+}
+.lglogocr{
+    width: 8vw;
+}
+
+
+/*----------------- END OF FOOTER SECTION------------- */
