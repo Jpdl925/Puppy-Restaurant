@@ -131,3 +131,135 @@ nav img{
 
 
 /*----------------- END OF FOOTER SECTION------------- */
+
+/* ABOUT PAGE */
+
+.aboutTitle {
+    color: #5F002B; 
+    font-size: 50px;
+    font-family: fugaz-one;
+}
+.aboutText {
+    color: #5F002B;  
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.abPadding {
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+}
+.ABwhiteBG {
+    background-color: white;
+}
+.teamTitle {
+    color: #5F002B;
+    font-size: 30px;
+    font-family: fugaz-one;
+}
+.cardPicTop {
+    border-top-left-radius: 0px ;
+    border-top-right-radius: 0px ; 
+}
+.card-margin {
+    margin-bottom: 100px;
+}
+.cardtitle {
+    font-family: fugaz-one;
+    color: #5F002B;  
+    font-size: 30px;
+    
+}
+.teamText {
+    color: #5F002B;
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 19px;
+
+}
+.bgImg {
+    background-image: url(/Assets/bgtexture.jpg);
+}
+.footer-right{
+    text-align: end;
+}
+
+
+/* CATERING */
+.cateringTitle{
+    color: #5F002B;
+    font-size: 50px;
+    font-family: fugaz-one;
+}
+.serviceTitle{
+    color: #5F002B; 
+    font-size: 30px;
+    font-family: fugaz-one;
+}
+.cateringText{
+    color: #5F002B;  
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 19px;
+}
+.card-title {
+    margin-bottom: 0 !important;
+}
+
+.cardBody {
+    padding-top: 0 !important;
+}
+=======
+/*MENU CSS*/
+
+.menuTitle {
+    font-family: fugaz-one;
+    color: #5F002B;   
+    font-size: 50px;
+}
+.menuDish {
+    color: #5F002B;  
+    font-family: fugaz-one;
+    font-size: 30px;
+}
+.menuText {
+    color: #5F002B;   
+    font-family: montauk-light;
+    font-size: 20px
+}
+.menuText-item {
+    font-size: 35px;
+    
+}
+.cardPadding {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.menuMargin {
+    margin-bottom: 50px;
+}
+.menuItem {
+    color: #5F002B;  
+    font-family: montauk-light;
+    font-size: 20px;
+    line-height: 20px;
+}
+.priceTag {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+}
+hr {
+    color: #980051;
+    border-top: 3px solid #980051;
+}
+.menuBottom {
+    padding-bottom: 100px;
+}
+.menuWrap {
+    white-space: nowrap;
+}
+
