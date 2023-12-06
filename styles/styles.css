@@ -32,135 +32,20 @@
 
 
 /* -----------NAVBAR BEGINNING------------ */
-/* NAVBAR FORMATTING */
 .navbarBackground{
-    margin-top:-8px;
-    background-image:url('/Assets/bgtexture.jpg');
-    padding-top:1%;
-    padding-bottom: 2%;
-    padding-left:10%;
-    width: 100%;
-    
-    
+    background-image: url('/Assets/bgtexture.jpg');
 }
-
-.navPosition{
-    padding-bottom: 0;
+nav img{
+    width:50%;
+    max-width:350px;
+    height: auto;
 }
-
-/* NAVBAR TEXT */
-  .nav li {
-    display: inline-block;
-    font-size: 3.5vh;
-    padding-right: 5vw;
-    font-family: Montauk-Bold;
-    color: #5F002B;
-    font-style: italic;
-    margin-right: 1vw;
-
-  }
-  /* Adjusting Link Color */
-  a{
-    color: #5F002B;
-    text-decoration: none;
-  }
-  /* Moving Navtext to the right of the Navbar */
-  .navRight{
-    text-align: right;
-  }
-
-/* NAVBAR IMAGE */
-.nav img{
-    width: 15%;
-    height:auto;
-}
-/* --------------END OF NAVBAR------------*/
-
-/* ---PATIO IMAGE FORMAT------------- */
-.center{
-    display:flex;
-    justify-content: center;
-}
-.patioFormat{ 
-width: 100%;
-object-fit:fill;
-margin:0;
-padding: 0;
-}  
- /*----------END OF PATIO IMAGE FORMAT---------  */
-
- /* -------Muzzles Sandwiches and Grill----------------- */
- .woodBackground{
-    padding-top: 8vh;
-    background-image: url(/Assets/bgtexture.jpg);
- }
- .whiteBackground{
-    display:inline-block;
-    background-color: white;
-    width:40vw;
- }
- .black{
-    background-color:black;
- }
-.singleImg{
-    margin-left:50px;
-    margin-right:20px;
-    float:left;
-    width:550px;
-    height:350px;
-}
-.muzzTitle{
-    margin-left:30px;
-    font-size: 55px;
-    font-family: Montauk-Bold;
-    color: #5F002B;
-    font-style: Bold;
-}
-.muzzText{
-    margin-top: -30px;
-    margin-left:30px;
-    font-size: 17px;
+.navText a{
     font-family: Montauk-Regular;
-    color: #5F002B;
-    padding-bottom:20px;
+    font-size:250%;
+    color:#5F002B;
+    text-decoration: none;
+    padding-inline: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
-.homeImg{
-    margin-top: 13px;
-    width:800px;
-    height:120px;
-}
-/* ------END OF MUZZLES SANDWICHES AND GRILL----------- */
-
-/*----------------------FOOTER----------------------*/
-footer div.woodBackground{  
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-.footerContent{
-    top: 20px;
-}
-footer .logoCR{
-    padding-right: 50px;
-    float: right;
-    text-align: right;
-}
-footer .address{
-    padding-left: 50px;
-    float:left;
-}
-footer div img{
-    width: 130px;
-}
-footer div p{
-    font-size: 20px;
-    font-family: Montauk-Light;
-    color: #5F002B;
-}
-/* ----------------------END OF FOOTER---------------- */
-
-/* ABOUT PAGE */
-.about-title {
-    color: #5F002B; 
-}
-
-
