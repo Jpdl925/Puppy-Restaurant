@@ -264,3 +264,20 @@ hr {
 .menuWrap {
     white-space: nowrap;
 }
+.navbarBackground{
+    background-image: url('/Assets/bgtexture.jpg');
+}
+nav img{
+    width:50%;
+    max-width:350px;
+    height: auto;
+}
+.navText a{
+    font-family: Montauk-Regular;
+    font-size:250%;
+    color:#5F002B;
+    text-decoration: none;
+    padding-inline: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
