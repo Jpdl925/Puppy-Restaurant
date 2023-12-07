@@ -15,10 +15,6 @@
     font-family:Montauk-Regular;
     src: url('/Fonts/Montauk-Regular.otf');
 }
-@font-face {
-    font-family: fugaz-one;
-    src: url(../Fonts/FugazOne-Regular.ttf);
-}
 .Montauk-Bold{
     font-family: Montauk-Bold;
 }
@@ -36,126 +32,105 @@
 
 
 /* -----------NAVBAR BEGINNING------------ */
-/* NAVBAR FORMATTING */
-.navbarBackground{
-    margin-top:-8px;
-    background-image:url('/Assets/bgtexture.jpg');
-    padding-top:10px;
-    padding-bottom: 25px;
-    padding-left:150px;
-    
-    
+.woodBackground{
+    background-image: url('/Assets/bgtexture.jpg');
 }
-
-.navPosition{
-    padding-bottom: 0;
+nav img{
+    width:50%;
+    max-width:350px;
+    height: auto;
+    margin-left: 8vw;
 }
-
-/* NAVBAR TEXT */
-  .nav li {
-    display: inline-block;
-    font-size: 25px;
-    padding-right: 50px;
-    font-family: Montauk-Bold;
-    color: #5F002B;
-    font-style: italic;
-  }
-  /* Adjusting Link Color */
-  a{
-    color: #5F002B;
+.navText a{
+    font-family: Montauk-Regular;
+    font-size:250%;
+    color:#5F002B;
     text-decoration: none;
-  }
-  /* Moving Navtext to the right of the Navbar */
-  .navRight{
-    display:flex;
-    justify-content: flex-end;
-    padding-right:100px;
-  }
-
-/* NAVBAR IMAGE */
-.nav img{
-    width: 250px;
-    height:92px;
+    padding-inline: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
-/* --------------END OF NAVBAR------------*/
+/* ----------------------NAVBAR ENDING----------------- */
 
-/* ---PATIO IMAGE FORMAT------------- */
-.patioFormat{ 
-width: 100%;
-object-fit:fill;
-margin:0;
-padding: 0;
-}  
- /*----------END OF PATIO IMAGE FORMAT---------  */
+/* -------------------PATIO IMAGE-------------------- */
+.patioFormat{
+    width: 100%;
+    height:auto;
+}
+/*----------------- END OF PATIO IMAGE------------- */
 
- /* -------Muzzles Sandwiches and Grill----------------- */
- .woodBackground{
-    padding-top: 80px;
-    background-image: url(/Assets/bgtexture.jpg);
- }
- .whiteBackground{
-    display:inline-block;
-    background-color: white;
-    width:800px;
- }
- .black{
-    background-color:black;
- }
-.singleImg{
-    margin-left:50px;
-    margin-right:20px;
-    float:left;
-    width:550px;
-    height:350px;
+/*----------------- MSG SECTION------------- */
+.sandImage{
+    width: 100%;
+}
+.muzzbox{
+    width: 20vw;
+    height:auto;
+}
+.me-n3{
+    margin: -30px;
 }
 .muzzTitle{
-    margin-left:30px;
-    font-size: 55px;
+    font-size:6vw;
     font-family: Montauk-Bold;
-    color: #5F002B;
-    font-style: Bold;
+    color:#5F002B;
+    font-style: italic;
+    font-weight: bold;
 }
 .muzzText{
-    margin-top: -30px;
-    margin-left:30px;
-    font-size: 17px;
-    font-family: Montauk-Regular;
-    color: #5F002B;
-    padding-bottom:20px;
+    font-size:3.5vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+}
+.lgsandImage{
+    padding-left:5vw;
+    width:40vw;
+    height:auto;
+}
+.lgmuzzTitle{
+    font-size:3vw;
+    font-family: Montauk-Bold;
+    color:#5F002B;
+    font-style: italic;
+    font-weight: bold;
+}
+.lgmuzzText{
+    font-size:1.1vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+    margin-right: 4vw;
+    margin-top: -15px;
 }
 .homeImg{
-    margin-top: 13px;
-    width:800px;
-    height:120px;
+    width:100%;
+    padding-top:40px;
 }
-/* ------END OF MUZZLES SANDWICHES AND GRILL----------- */
 
-/*----------------------FOOTER----------------------*/
-footer div.woodBackground{  
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-.footerContent{
-    top: 20px;
-}
-footer .logoCR{
-    padding-right: 50px;
-    float: right;
-    text-align: right;
-}
-footer .address{
-    padding-left: 50px;
-    float:left;
-}
-footer div img{
-    width: 130px;
-}
-footer div p{
-    font-size: 20px;
+
+/*----------------- END OF MSG SECTION------------- */
+
+/*----------------- FOOTER SECTION------------- */
+.address{
+    font-size:3.2vw;
     font-family: Montauk-Light;
-    color: #5F002B;
+    color:#5F002B;
 }
-/* ----------------------END OF FOOTER---------------- */
+.logoCR{
+    float:right;
+    width: 25vw;
+}
+.lgaddress{
+    font-size:1vw;
+    font-family: Montauk-Light;
+    color:#5F002B;
+    padding-left: 5vw;
+}
+.lglogocr{
+    width: 8vw;
+}
+
+
+/*----------------- END OF FOOTER SECTION------------- */
 
 /* ABOUT PAGE */
 .navFont {
