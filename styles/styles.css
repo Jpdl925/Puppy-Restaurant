@@ -283,3 +283,29 @@ nav img{
     font-style: italic;
 }
 
+/* -----------END OF ABOUT PAGE-------------- */
+
+/* ----------------PHOTOS SECTION------------------ */
+
+.photoTitle{
+    width:75%;
+    background-color: white;
+    font-family: Montauk-Regular;
+    font-size:250%;
+    color:#5F002B;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 12vw;
+}
+
+#photos img{
+    width: 22vw;
+    padding:  6px;
+    background-color: white;
+    margin: 1vw;
+}
+.photosFooter {
+    flex: 0 0 auto;
+    padding-bottom: 25vh;
+  }
+/* ----------------END OF PHOTOS SECTION------------------ */
