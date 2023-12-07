@@ -35,8 +35,8 @@
 .woodBackground{
     background-image: url('/Assets/bgtexture.jpg');
 }
-nav img{
-    width:50%;
+.muzLogo{
+    width:20vw;
     max-width:350px;
     height: auto;
     margin-left: 8vw;
