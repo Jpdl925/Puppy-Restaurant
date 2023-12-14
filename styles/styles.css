@@ -304,7 +304,9 @@ nav img{
     margin: 1vw;
 }
 .photosFooter {
+    align-items: end;
+    margin-top: 2%;
     flex: 0 0 auto;
-    padding-bottom: 25vh;
+    padding-bottom:2%;
   }
 /* ----------------END OF PHOTOS SECTION------------------ */
