@@ -315,3 +315,9 @@ nav img{
     padding-bottom:2%;
   }
 /* ----------------END OF PHOTOS SECTION------------------ */
+
+footer{
+        font-size:1vw;
+        font-family: Montauk-Light;
+        color:#5F002B;
+}
