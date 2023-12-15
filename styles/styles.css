@@ -14,7 +14,11 @@
 @font-face{
     font-family:Montauk-Regular;
     src: url('/Fonts/Montauk-Regular.otf');
+}@font-face {
+    font-family: fugaz-one;
+    src: url(/Fonts/FugazOne-Regular.ttf);
 }
+
 .Montauk-Bold{
     font-family: Montauk-Bold;
 }
